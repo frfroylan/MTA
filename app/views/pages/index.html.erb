@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <!-- Full Width Image Header with Text-->
+    
+    <div class="headline" id="top">
+        <div class="intro-pic">
+        <h1>MTA Tax Services</h1>
+        <h2>Servicing the San Bernardino County and surrounding areas.</h2>
+        </div>
+    </div>
+
+
+    <hr class="featurette-divider bot-img" id="services">
+
+    <!-- Page Content -->
+    <div class="container">
+
+        
+
+        <!-- First Service Featurette -->
+        <div class="featurette first" >
+            <img class="featurette-image img-circle img-responsive pull-right " src="assets/pressing_buttons_sm.jpg">
+            <h2 class="featurette-heading">Service One
+                <span class="text-muted">Intro to parag</span>
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Service Featurette -->
+        <div class="featurette" >
+            <img class="featurette-image img-circle img-responsive pull-left" src="assets/pen_paper_sm.jpg">
+            <h2 class="featurette-heading">Service two
+                <span class="text-muted">Is Pretty Cool Too.</span>
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Service Featurette -->
+        <div class="featurette" >
+            <img class="featurette-image img-circle img-responsive pull-right" src="assets/graphs_sm.jpg">
+            <h2 class="featurette-heading">Tax Service Three
+                <span class="text-muted">Will Seal the Deal.</span>
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+
+
+        <hr class="featurette-divider" id="about">
+
+        <!-- About Featurette -->
+        <div class="featurette" >
+            <img class="featurette-image img-circle img-responsive pull-left" src="assets/pressing_buttons_sm.jpg">
+            <h2 class="featurette-heading">About MTA Tax Services
+                <span class="text-muted">Intro to parag</span>
+            </h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+
+
+    </div>
+    <!-- /.container 1-->
+
+
+        
+
+        <!-- Contact Form -->
+
+    <div class="container">
+        <hr class="featurette-divider" id="contact">
+        <form role="form">
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email">
+            </div>  
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name">
+                
+            </div> 
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                    <textarea class="form-control" name="message" placeholder="Enter message here..." id="message"></textarea>
+            </div> 
+
+            <button type="submit" class="btn btn-default">Send Email</button>
+
+        </form>
+
+    </div>
+    <!--End of Form container -->
+
+
+    <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+    </script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+

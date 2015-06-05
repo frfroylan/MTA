@@ -1,0 +1,321 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+
+
+
+ Things Needed to Do: 
+    - Need to add an image to the beginning of webpage 
+    - Need to finish the other adding a contact form 
+    - Need to finalize the look of the design with mom 
+        including what each service should be and what type of 
+        photo to use
+
+ */
+
+$blu-color: #8DC2F2;
+$beg-color: #FFF1D5;
+$ff-heading: 'satisfy', cursive, sans-serif;
+$ff-body: 'Quicksand', arial;
+
+
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: $blu-color;/*Main color*/
+  
+
+}
+
+.intro-pic {
+
+    background: url(https://download.unsplash.com/1/irish-hands.jpg);
+    background-size: cover;
+    padding: 50px 0px 30px 0px;
+}
+
+
+/*************Navbar************/
+
+/*
+Things need to finish:
+    - Add more effects
+*/
+.navbar{
+    
+    background-color: $beg-color;
+    border: none;
+    font-family: $ff-body;
+    font-size: medium;
+    font-weight: 800;
+}
+
+#navy a{
+
+    color: #333;
+}
+
+#navy a:hover {
+
+    color: $blu-color;
+    font-size: large;
+}
+
+#brand {
+    color: #333;
+    font-size: 18px;
+    font-family: $ff-heading;
+
+}
+
+#brand:hover{
+
+    color: $blu-color;
+    font-size: 22px;
+}   
+
+/****** HEADLINE ******************/
+.headline {
+    padding: 0px 0px;
+}
+
+.headline h1 {
+    font-size: 130px;
+    text-align: center;
+    font-family: $ff-heading;
+    z-index: 1;
+    color: white;
+    
+}
+
+.headline h2 {
+    font-size: 55px;
+    text-align: center;
+    font-family: $ff-heading;
+    z-index: 10;
+    color: white;
+}
+
+
+/****************Featurette shit*********/
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.bot-img {
+
+    margin: 0px 0px 0px 0px;
+}
+
+.featurette {
+    overflow: hidden;
+    font-family: $ff-body;
+    font-weight: 400;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+.first {
+
+    padding-top: 30px;
+}
+
+
+
+/*************** Divider **********/
+hr {
+
+    border-top: 2px solid white;
+}
+
+
+
+/*************** Form Stuff **************/
+
+form {
+
+    font-family: $ff-body;
+}
+
+
+
+/******************FFFOOOTTTEERRR*******/
+footer {
+    margin: 50px 0;
+    text-align: center;
+    font-family: $ff-body;
+}
+
+
+/*******************Responsive Des*********/
+@media(max-width:1200px) {
+
+
+    .headline h1 {
+        font-size: 140px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+
+    .bot-img {
+
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-width:991px) {
+
+
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+    
+    .bot-img {
+
+    margin: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-width:768px) {
+
+
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+
+    .bot-img {
+
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-width:668px) {
+
+
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+
+    .bot-img {
+
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-width:640px) {
+
+
+    .headline {
+        padding:0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+
+    .bot-img {
+
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-width:375px) {
+
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .bot-img {
+
+        margin: 0px 0px 0px 0px;
+    }
+}
