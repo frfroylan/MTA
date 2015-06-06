@@ -20,6 +20,10 @@ $ff-heading: 'satisfy', cursive, sans-serif;
 $ff-body: 'Quicksand', arial;
 
 
+/**Heroku security workaround for google fonts**/
+@import url('//fonts.googleapis.com/css?family=Quicksand:400,700,300');
+
+
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
